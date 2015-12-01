@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Registration of boys and girls]">
+  <parameter name="gender" value="f"/>
+  <parameter name="browser" value="Marja Chrome"/>
+  <parameter name="name" value="testName"/>
+  <parameter name="age" value="28"/>
+  <test name="FirefoxTest(failed)">
+    <parameter name="gender" value="m"/>
+    <parameter name="browser" value="Ivan Firefox"/>
+    <parameter name="name" value="testName"/>
+    <parameter name="age" value="24"/>
+    <classes>
+      <class name="testcases.RegistrationBoysAndGirls">
+        <methods>
+          <include name="registrationPreferBoys"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="registrationPreferGirls"/>
+        </methods>
+      </class> <!-- testcases.RegistrationBoysAndGirls -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="ChromeTest(failed)">
+    <parameter name="gender" value="f"/>
+    <parameter name="browser" value="Marja Chrome"/>
+    <parameter name="name" value="testName"/>
+    <parameter name="age" value="28"/>
+    <classes>
+      <class name="testcases.RegistrationBoysAndGirls">
+        <methods>
+          <include name="registrationPreferBoys"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="registrationPreferGirls"/>
+        </methods>
+      </class> <!-- testcases.RegistrationBoysAndGirls -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Registration of boys and girls] -->

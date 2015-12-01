@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Remote.RegistrationBoysAndGirls">
+        <methods>
+          <include name="registrationPreferGirls"/>
+          <include name="clearCash"/>
+          <include name="setBrowser1"/>
+        </methods>
+      </class> <!-- Remote.RegistrationBoysAndGirls -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

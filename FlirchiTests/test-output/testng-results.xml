@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21457" started-at="2015-11-16T14:04:11Z" finished-at="2015-11-16T14:04:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21457" started-at="2015-11-16T14:04:11Z" finished-at="2015-11-16T14:04:32Z">
+      <class name="Remote.RegistrationBoysAndGirls">
+        <test-method status="PASS" signature="setBrowser1()[pri:0, instance:Remote.RegistrationBoysAndGirls@2be94b0f]" name="setBrowser1" is-config="true" duration-ms="5623" started-at="2015-11-16T16:04:11Z" finished-at="2015-11-16T16:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser1 -->
+        <test-method status="PASS" signature="registrationPreferBoys()[pri:0, instance:Remote.RegistrationBoysAndGirls@2be94b0f]" name="registrationPreferBoys" duration-ms="8311" started-at="2015-11-16T16:04:16Z" finished-at="2015-11-16T16:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPreferBoys -->
+        <test-method status="PASS" signature="clearCash()[pri:0, instance:Remote.RegistrationBoysAndGirls@2be94b0f]" name="clearCash" is-config="true" duration-ms="132" started-at="2015-11-16T16:04:25Z" finished-at="2015-11-16T16:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCash -->
+        <test-method status="PASS" signature="registrationPreferGirls()[pri:0, instance:Remote.RegistrationBoysAndGirls@2be94b0f]" name="registrationPreferGirls" duration-ms="6953" started-at="2015-11-16T16:04:25Z" finished-at="2015-11-16T16:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPreferGirls -->
+        <test-method status="PASS" signature="clearCash()[pri:0, instance:Remote.RegistrationBoysAndGirls@2be94b0f]" name="clearCash" is-config="true" duration-ms="140" started-at="2015-11-16T16:04:32Z" finished-at="2015-11-16T16:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCash -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:Remote.RegistrationBoysAndGirls@2be94b0f]" name="tearUp" is-config="true" duration-ms="282" started-at="2015-11-16T16:04:32Z" finished-at="2015-11-16T16:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- Remote.RegistrationBoysAndGirls -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
